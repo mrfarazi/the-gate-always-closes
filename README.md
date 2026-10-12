@@ -210,8 +210,7 @@ every shipped number was measured in.
 ## Citation
 
 The paper appears in the Proceedings of the Asian Conference on Computer Vision (ACCV 2026, Osaka,
-December 2026); page numbers will be added when the proceedings are published. Preprint:
-<https://arxiv.org/abs/2607.23335>.
+December 2026); page numbers will be added when the proceedings are published.
 
 ```bibtex
 @InProceedings{Farazi_2026_ACCV,
@@ -222,12 +221,6 @@ December 2026); page numbers will be added when the proceedings are published. P
     year      = {2026}
 }
 
-@article{Farazi_2026_arXiv,
-  title   = {The Gate Always Closes: On Injecting Auxiliary Signals into Frozen Vision-Language Models},
-  author  = {Farazi, Moshiur and Ramasinghe, Sameera and Ciftler, Bekir Sait and Turza, Mahbub Ahmed and Rahman, Shafin},
-  journal = {arXiv preprint arXiv:2607.23335},
-  year    = {2026}
-}
 ```
 
 ## Licence

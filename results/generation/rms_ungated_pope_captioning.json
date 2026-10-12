@@ -1,0 +1,36 @@
+{
+  "pope": {
+    "random": {
+      "accuracy": 83.97,
+      "precision": 98.48,
+      "recall": 69.0,
+      "f1": 81.14,
+      "yes_rate": 35.03,
+      "total": 3000
+    },
+    "popular": {
+      "accuracy": 83.3,
+      "precision": 96.64,
+      "recall": 69.0,
+      "f1": 80.51,
+      "yes_rate": 35.7,
+      "total": 3000
+    },
+    "adversarial": {
+      "accuracy": 82.3,
+      "precision": 94.01,
+      "recall": 69.0,
+      "f1": 79.58,
+      "yes_rate": 36.7,
+      "total": 3000
+    },
+    "_elapsed_sec": 766.3
+  },
+  "captioning": {
+    "metrics": {
+      "error": "[Errno 2] No such file or directory: 'java'"
+    },
+    "n_preds": 5000,
+    "_elapsed_sec": 1678.0
+  }
+}

@@ -1,0 +1,92 @@
+{
+ "hra_v1": {
+  "src": "/path/to/runs/hra_v1/checkpoints/best"
+ },
+ "small_alpha": {
+  "src": "/path/to/runs/small_alpha/checkpoints/best"
+ },
+ "stage2": {
+  "src": "/path/to/runs/stage2/checkpoints/best",
+  "extra": {
+   "stage2_checkpoint.pt": "/path/to/stage2_checkpoint.pt"
+  }
+ },
+ "no_dropout": {
+  "src": "/path/to/runs/no_dropout/checkpoints/best"
+ },
+ "raw_gated": {
+  "src": "/path/to/runs/raw_gated/checkpoints/best"
+ },
+ "rms_ungated": {
+  "src": "/path/to/runs/rms_ungated/checkpoints/best"
+ },
+ "rms_ungated_r2": {
+  "src": "/path/to/runs/rms_ungated_r2/checkpoints/best"
+ },
+ "rms_ungated_r3": {
+  "src": "/path/to/runs/rms_ungated_r3/checkpoints/best"
+ },
+ "base_r1": {
+  "src": "/path/to/runs/base_r1/checkpoints/best"
+ },
+ "soft_prompt": {
+  "src": "/path/to/runs/soft_prompt/checkpoints/best"
+ },
+ "soft_prompt_r2": {
+  "src": "/path/to/runs/soft_prompt_r2/checkpoints/best"
+ },
+ "euclidean": {
+  "src": "/path/to/runs/euclidean/checkpoints/best"
+ },
+ "euclidean_geo_r1": {
+  "src": "/path/to/runs/euclidean_geo_r1/checkpoints/best"
+ },
+ "euclidean_geo_s2": {
+  "src": "/path/to/runs/euclidean_geo_s2/checkpoints/best"
+ },
+ "euclidean_geo_s3": {
+  "src": "/path/to/runs/euclidean_geo_s3/checkpoints/best"
+ },
+ "g2": {
+  "src": "/path/to/runs/g2/checkpoints/best"
+ },
+ "synthesis": {
+  "src": "/path/to/runs/synthesis/checkpoints/best"
+ },
+ "lora_all_linear_r1": {
+  "src": "/path/to/runs/lora_all_linear_r1/checkpoints/best"
+ },
+ "lora_all_linear_s2": {
+  "src": "/path/to/runs/lora_all_linear_s2/checkpoints/best"
+ },
+ "rms_dropout_r1": {
+  "src": "/path/to/runs/rms_dropout_r1/checkpoints/best"
+ },
+ "internvl3_seed0": {
+  "src": "/path/to/runs/internvl3_seed0/checkpoints/best"
+ },
+ "internvl3_seed1": {
+  "src": "/path/to/runs/internvl3_seed1/checkpoints/best"
+ },
+ "internvl3_seed2": {
+  "src": "/path/to/runs/internvl3_seed2/checkpoints/best"
+ },
+ "qwen2vl_seed0": {
+  "src": "/path/to/runs/qwen2vl_seed0/checkpoints/best",
+  "extra": {
+   "FINAL.json": "/path/to/FINAL.json"
+  }
+ },
+ "qwen2vl_seed1": {
+  "src": "/path/to/runs/qwen2vl_seed1/checkpoints/best",
+  "extra": {
+   "FINAL.json": "/path/to/FINAL.json"
+  }
+ },
+ "qwen2vl_seed2": {
+  "src": "/path/to/runs/qwen2vl_seed2/checkpoints/best",
+  "extra": {
+   "FINAL.json": "/path/to/FINAL.json"
+  }
+ }
+}

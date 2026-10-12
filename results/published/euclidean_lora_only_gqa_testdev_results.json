@@ -1,0 +1,37 @@
+{
+  "model": "lora_only",
+  "checkpoint": "euclidean",
+  "variant": null,
+  "boxes": "auto",
+  "box_sources": {},
+  "accuracy": 59.73,
+  "correct": 7513,
+  "total": 12578,
+  "accuracy_by_type": {
+    "choose": {
+      "correct": 914,
+      "total": 1129,
+      "accuracy": 80.96
+    },
+    "compare": {
+      "correct": 363,
+      "total": 589,
+      "accuracy": 61.63
+    },
+    "logical": {
+      "correct": 1303,
+      "total": 1803,
+      "accuracy": 72.27
+    },
+    "query": {
+      "correct": 3174,
+      "total": 6805,
+      "accuracy": 46.64
+    },
+    "verify": {
+      "correct": 1759,
+      "total": 2252,
+      "accuracy": 78.11
+    }
+  }
+}

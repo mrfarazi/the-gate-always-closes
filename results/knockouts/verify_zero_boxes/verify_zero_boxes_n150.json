@@ -1,0 +1,5200 @@
+{
+ "n": 150,
+ "ckpt": "hf://mrfarazi/tgac-llava15-hra-v1",
+ "qids": [
+  "201307251",
+  "201640614",
+  "202225914",
+  "2062325",
+  "201303229",
+  "201902997",
+  "20567512",
+  "20136592",
+  "20602803",
+  "201079951",
+  "201079952",
+  "20982537",
+  "201079958",
+  "202218649",
+  "20609782",
+  "201757757",
+  "201902993",
+  "20306193",
+  "20183468",
+  "20753400",
+  "20151723",
+  "201030735",
+  "201637161",
+  "202218839",
+  "20982539",
+  "201110833",
+  "20866249",
+  "201110525",
+  "20120533",
+  "201952977",
+  "201497576",
+  "20866242",
+  "201455911",
+  "20856965",
+  "2059565",
+  "20856960",
+  "201079954",
+  "201548894",
+  "201573912",
+  "202243820",
+  "201573918",
+  "201974972",
+  "201974971",
+  "201974976",
+  "201996743",
+  "20797666",
+  "20797665",
+  "201974979",
+  "201156138",
+  "20442334",
+  "201765651",
+  "20442331",
+  "20508243",
+  "2046473",
+  "20618932",
+  "20442338",
+  "202005788",
+  "201902515",
+  "201303404",
+  "20942157",
+  "20942156",
+  "20898685",
+  "202116974",
+  "201621328",
+  "2076819",
+  "202244099",
+  "201951771",
+  "201951770",
+  "201621326",
+  "201233862",
+  "201951776",
+  "20489632",
+  "201623784",
+  "202023424",
+  "20182936",
+  "201654344",
+  "20746468",
+  "201428996",
+  "20899362",
+  "202244009",
+  "20287556",
+  "20631973",
+  "20287551",
+  "201481824",
+  "201663656",
+  "20308576",
+  "201065067",
+  "20462070",
+  "20462076",
+  "20462075",
+  "201065062",
+  "20754631",
+  "201935960",
+  "20412222",
+  "201935966",
+  "20878946",
+  "201947446",
+  "201498767",
+  "20306764",
+  "202144708",
+  "20306767",
+  "201996815",
+  "201996813",
+  "202060122",
+  "201067797",
+  "20394919",
+  "201497916",
+  "20303081",
+  "201498727",
+  "201873473",
+  "20300425",
+  "20300424",
+  "20899558",
+  "20300420",
+  "20300423",
+  "20836565",
+  "201947624",
+  "201947620",
+  "20300428",
+  "201504960",
+  "201947591",
+  "20177575",
+  "20381557",
+  "201982068",
+  "201370428",
+  "201878325",
+  "201370422",
+  "2075709",
+  "201896034",
+  "201065497",
+  "20857175",
+  "20648122",
+  "20636999",
+  "20258752",
+  "201156466",
+  "201885557",
+  "202081210",
+  "20117834",
+  "201438286",
+  "20117781",
+  "201756501",
+  "20716925",
+  "20541270",
+  "201056079",
+  "20468617",
+  "2017235",
+  "20427913",
+  "20427912",
+  "201480278",
+  "201056072"
+ ],
+ "n_with_scene_graph": 0,
+ "versions": {
+  "torch": "2.6.0+cu124",
+  "transformers": "4.40.0",
+  "peft": "0.10.0"
+ },
+ "conditions": {
+  "A_pub_on_zero_boxes": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false
+    },
+    "201902997": {
+     "prediction": "computer mouse",
+     "answer": "keyboard",
+     "correct": false
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false
+    },
+    "201079958": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true
+    },
+    "20306193": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true
+    },
+    "201110833": {
+     "prediction": "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "answer": "no",
+     "correct": false
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201497576": {
+     "prediction": "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "answer": "yes",
+     "correct": false
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2046473": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false
+    },
+    "201951771": {
+     "prediction": "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "answer": "van",
+     "correct": false
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "answer": "table",
+     "correct": false
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201756501": {
+     "prediction": "color white door and kitten white door and kitten white door and kitten white door and k",
+     "answer": "color",
+     "correct": false
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false
+    }
+   },
+   "acc": 56.666666666666664,
+   "max_abs_bias_over_items": 0.0,
+   "mean_abs_bias_over_items": 0.0,
+   "n_items_with_nonzero_bias": 0,
+   "n_nan_bias_entries": 0,
+   "bias_used_in_generate": true,
+   "seconds": 40.17855620384216
+  },
+  "D_wrapper_bias_absent": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false
+    },
+    "201902997": {
+     "prediction": "computer mouse",
+     "answer": "keyboard",
+     "correct": false
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false
+    },
+    "201079958": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true
+    },
+    "20306193": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true
+    },
+    "201110833": {
+     "prediction": "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "answer": "no",
+     "correct": false
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201497576": {
+     "prediction": "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "answer": "yes",
+     "correct": false
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2046473": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false
+    },
+    "201951771": {
+     "prediction": "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "answer": "van",
+     "correct": false
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "answer": "table",
+     "correct": false
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201756501": {
+     "prediction": "color white door and kitten white door and kitten white door and kitten white door and k",
+     "answer": "color",
+     "correct": false
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false
+    }
+   },
+   "acc": 56.666666666666664,
+   "max_abs_bias_over_items": 0.0,
+   "mean_abs_bias_over_items": 0.0,
+   "n_items_with_nonzero_bias": 0,
+   "n_nan_bias_entries": 0,
+   "bias_used_in_generate": false,
+   "seconds": 43.96136021614075
+  },
+  "C_grid_on": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false
+    },
+    "201902997": {
+     "prediction": "computer monitor",
+     "answer": "keyboard",
+     "correct": false
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false
+    },
+    "201079958": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true
+    },
+    "20306193": {
+     "prediction": "no\nanswer the question using a single word or phrase",
+     "answer": "yes",
+     "correct": false
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true
+    },
+    "201110833": {
+     "prediction": "no\r\ndefects: yes\r\nlocation: kitchen\r\nmade of glass: yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201497576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2046473": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false
+    },
+    "201951771": {
+     "prediction": "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of",
+     "answer": "van",
+     "correct": false
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | kitchen chair | wooden kitchen",
+     "answer": "table",
+     "correct": false
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201756501": {
+     "prediction": "color white",
+     "answer": "color",
+     "correct": false
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false
+    }
+   },
+   "acc": 57.333333333333336,
+   "max_abs_bias_over_items": 0.796875,
+   "mean_abs_bias_over_items": 0.4059264487028122,
+   "n_items_with_nonzero_bias": 150,
+   "n_nan_bias_entries": 0,
+   "bias_used_in_generate": true,
+   "seconds": 48.4394006729126
+  },
+  "B_pub_off_lora_only": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false
+    },
+    "201902997": {
+     "prediction": "computer monitor",
+     "answer": "keyboard",
+     "correct": false
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false
+    },
+    "201079958": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true
+    },
+    "20306193": {
+     "prediction": "no\nanswer the question using a single word or phrase",
+     "answer": "yes",
+     "correct": false
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true
+    },
+    "201110833": {
+     "prediction": "no\r\nhashtag sign on tablecloth under plates and paper on tablecloth",
+     "answer": "no",
+     "correct": false
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201497576": {
+     "prediction": "no\r\ncomputer mouse\r\nyes\r\ncoffee cup\r\nno",
+     "answer": "yes",
+     "correct": false
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2046473": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false
+    },
+    "201951771": {
+     "prediction": "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of",
+     "answer": "van",
+     "correct": false
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "answer": "table",
+     "correct": false
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true
+    },
+    "201756501": {
+     "prediction": "color white",
+     "answer": "color",
+     "correct": false
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false
+    }
+   },
+   "acc": 55.333333333333336,
+   "seconds": 36.97662043571472
+  },
+  "PUB_on_file": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false,
+     "type": "query"
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false,
+     "type": "query"
+    },
+    "201902997": {
+     "prediction": "computer mouse",
+     "answer": "keyboard",
+     "correct": false,
+     "type": "query"
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false,
+     "type": "query"
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true,
+     "type": "query"
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true,
+     "type": "choose"
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false,
+     "type": "query"
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false,
+     "type": "query"
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false,
+     "type": "query"
+    },
+    "201079958": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false,
+     "type": "query"
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true,
+     "type": "query"
+    },
+    "20306193": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "logical"
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "logical"
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false,
+     "type": "query"
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false,
+     "type": "query"
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true,
+     "type": "query"
+    },
+    "201110833": {
+     "prediction": "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false,
+     "type": "choose"
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false,
+     "type": "query"
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true,
+     "type": "choose"
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201497576": {
+     "prediction": "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "answer": "yes",
+     "correct": false,
+     "type": "compare"
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "choose"
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false,
+     "type": "query"
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false,
+     "type": "query"
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true,
+     "type": "query"
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true,
+     "type": "query"
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false,
+     "type": "query"
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false,
+     "type": "query"
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true,
+     "type": "query"
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true,
+     "type": "choose"
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true,
+     "type": "query"
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false,
+     "type": "query"
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "query"
+    },
+    "2046473": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "choose"
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false,
+     "type": "query"
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true,
+     "type": "choose"
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true,
+     "type": "query"
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false,
+     "type": "query"
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false,
+     "type": "query"
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false,
+     "type": "query"
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true,
+     "type": "query"
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false,
+     "type": "choose"
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false,
+     "type": "query"
+    },
+    "201951771": {
+     "prediction": "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "answer": "van",
+     "correct": false,
+     "type": "query"
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true,
+     "type": "query"
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true,
+     "type": "query"
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false,
+     "type": "query"
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false,
+     "type": "query"
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "logical"
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false,
+     "type": "query"
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "logical"
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "logical"
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true,
+     "type": "choose"
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true,
+     "type": "query"
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false,
+     "type": "query"
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false,
+     "type": "query"
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false,
+     "type": "query"
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "logical"
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false,
+     "type": "query"
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false,
+     "type": "query"
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false,
+     "type": "query"
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false,
+     "type": "query"
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false,
+     "type": "query"
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false,
+     "type": "query"
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true,
+     "type": "query"
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false,
+     "type": "query"
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false,
+     "type": "query"
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true,
+     "type": "query"
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false,
+     "type": "query"
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false,
+     "type": "query"
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true,
+     "type": "choose"
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false,
+     "type": "query"
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true,
+     "type": "query"
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true,
+     "type": "query"
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false,
+     "type": "query"
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true,
+     "type": "query"
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false,
+     "type": "query"
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true,
+     "type": "query"
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false,
+     "type": "query"
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false,
+     "type": "query"
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false,
+     "type": "query"
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true,
+     "type": "choose"
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true,
+     "type": "choose"
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false,
+     "type": "query"
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "query"
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "answer": "table",
+     "correct": false,
+     "type": "query"
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true,
+     "type": "choose"
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false,
+     "type": "query"
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true,
+     "type": "query"
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true,
+     "type": "choose"
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201756501": {
+     "prediction": "color white door and kitten white door and kitten white door and kitten white door and k",
+     "answer": "color",
+     "correct": false,
+     "type": "compare"
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true,
+     "type": "choose"
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "choose"
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true,
+     "type": "choose"
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true,
+     "type": "query"
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true,
+     "type": "query"
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false,
+     "type": "query"
+    }
+   }
+  },
+  "PUB_off_file": {
+   "preds": {
+    "201307251": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201640614": {
+     "prediction": "woman",
+     "answer": "women",
+     "correct": false,
+     "type": "query"
+    },
+    "202225914": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "2062325": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201303229": {
+     "prediction": "tall",
+     "answer": "short",
+     "correct": false,
+     "type": "query"
+    },
+    "201902997": {
+     "prediction": "computer monitor",
+     "answer": "keyboard",
+     "correct": false,
+     "type": "query"
+    },
+    "20567512": {
+     "prediction": "beach",
+     "answer": "ocean",
+     "correct": false,
+     "type": "query"
+    },
+    "20136592": {
+     "prediction": "red",
+     "answer": "red",
+     "correct": true,
+     "type": "query"
+    },
+    "20602803": {
+     "prediction": "brown",
+     "answer": "brown",
+     "correct": true,
+     "type": "choose"
+    },
+    "201079951": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false,
+     "type": "query"
+    },
+    "201079952": {
+     "prediction": "curtains",
+     "answer": "drapes",
+     "correct": false,
+     "type": "query"
+    },
+    "20982537": {
+     "prediction": "people",
+     "answer": "woman",
+     "correct": false,
+     "type": "query"
+    },
+    "201079958": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "202218649": {
+     "prediction": "picture frame",
+     "answer": "picture",
+     "correct": false,
+     "type": "query"
+    },
+    "20609782": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201757757": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201902993": {
+     "prediction": "keyboard",
+     "answer": "keyboard",
+     "correct": true,
+     "type": "query"
+    },
+    "20306193": {
+     "prediction": "no\nanswer the question using a single word or phrase",
+     "answer": "yes",
+     "correct": false,
+     "type": "logical"
+    },
+    "20183468": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "logical"
+    },
+    "20753400": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20151723": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false,
+     "type": "query"
+    },
+    "201030735": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201637161": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "202218839": {
+     "prediction": "kettle",
+     "answer": "pan",
+     "correct": false,
+     "type": "query"
+    },
+    "20982539": {
+     "prediction": "table",
+     "answer": "table",
+     "correct": true,
+     "type": "query"
+    },
+    "201110833": {
+     "prediction": "no\r\nhashtag sign on tablecloth under plates and paper on tablecloth",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "20866249": {
+     "prediction": "small",
+     "answer": "large",
+     "correct": false,
+     "type": "choose"
+    },
+    "201110525": {
+     "prediction": "marshmallows",
+     "answer": "marshmallow",
+     "correct": false,
+     "type": "query"
+    },
+    "20120533": {
+     "prediction": "aluminum",
+     "answer": "aluminum",
+     "correct": true,
+     "type": "choose"
+    },
+    "201952977": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201497576": {
+     "prediction": "no\r\ncomputer mouse\r\nyes\r\ncoffee cup\r\nno",
+     "answer": "yes",
+     "correct": false,
+     "type": "compare"
+    },
+    "20866242": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201455911": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "choose"
+    },
+    "20856965": {
+     "prediction": "black",
+     "answer": "white",
+     "correct": false,
+     "type": "query"
+    },
+    "2059565": {
+     "prediction": "brown",
+     "answer": "red",
+     "correct": false,
+     "type": "query"
+    },
+    "20856960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201079954": {
+     "prediction": "window",
+     "answer": "window",
+     "correct": true,
+     "type": "query"
+    },
+    "201548894": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201573912": {
+     "prediction": "concrete",
+     "answer": "concrete",
+     "correct": true,
+     "type": "query"
+    },
+    "202243820": {
+     "prediction": "large",
+     "answer": "small",
+     "correct": false,
+     "type": "query"
+    },
+    "201573918": {
+     "prediction": "metal",
+     "answer": "concrete",
+     "correct": false,
+     "type": "query"
+    },
+    "201974972": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201974971": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201974976": {
+     "prediction": "hat",
+     "answer": "hat",
+     "correct": true,
+     "type": "query"
+    },
+    "201996743": {
+     "prediction": "off",
+     "answer": "off",
+     "correct": true,
+     "type": "choose"
+    },
+    "20797666": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20797665": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "201974979": {
+     "prediction": "tank top",
+     "answer": "tank top",
+     "correct": true,
+     "type": "query"
+    },
+    "201156138": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "20442334": {
+     "prediction": "bananas",
+     "answer": "bananas",
+     "correct": true,
+     "type": "query"
+    },
+    "201765651": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "20442331": {
+     "prediction": "countertop",
+     "answer": "bananas",
+     "correct": false,
+     "type": "query"
+    },
+    "20508243": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "query"
+    },
+    "2046473": {
+     "prediction": "left",
+     "answer": "right",
+     "correct": false,
+     "type": "choose"
+    },
+    "20618932": {
+     "prediction": "girl",
+     "answer": "woman",
+     "correct": false,
+     "type": "query"
+    },
+    "20442338": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "202005788": {
+     "prediction": "cabinet",
+     "answer": "cabinet",
+     "correct": true,
+     "type": "choose"
+    },
+    "201902515": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201303404": {
+     "prediction": "gray",
+     "answer": "gray",
+     "correct": true,
+     "type": "query"
+    },
+    "20942157": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false,
+     "type": "query"
+    },
+    "20942156": {
+     "prediction": "woman",
+     "answer": "girl",
+     "correct": false,
+     "type": "query"
+    },
+    "20898685": {
+     "prediction": "waiting",
+     "answer": "standing",
+     "correct": false,
+     "type": "query"
+    },
+    "202116974": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201621328": {
+     "prediction": "wall",
+     "answer": "wall",
+     "correct": true,
+     "type": "query"
+    },
+    "2076819": {
+     "prediction": "sparse",
+     "answer": "dense",
+     "correct": false,
+     "type": "choose"
+    },
+    "202244099": {
+     "prediction": "rice balls & cookies & carrots & green beans & black olives & raisins",
+     "answer": "cookies",
+     "correct": false,
+     "type": "query"
+    },
+    "201951771": {
+     "prediction": "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of",
+     "answer": "van",
+     "correct": false,
+     "type": "query"
+    },
+    "201951770": {
+     "prediction": "van",
+     "answer": "van",
+     "correct": true,
+     "type": "query"
+    },
+    "201621326": {
+     "prediction": "picture frame",
+     "answer": "picture frame",
+     "correct": true,
+     "type": "query"
+    },
+    "201233862": {
+     "prediction": "ramp",
+     "answer": "pavement",
+     "correct": false,
+     "type": "query"
+    },
+    "201951776": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20489632": {
+     "prediction": "brown",
+     "answer": "beige",
+     "correct": false,
+     "type": "query"
+    },
+    "201623784": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "logical"
+    },
+    "202023424": {
+     "prediction": "bedspread",
+     "answer": "bed",
+     "correct": false,
+     "type": "query"
+    },
+    "20182936": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "logical"
+    },
+    "201654344": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "logical"
+    },
+    "20746468": {
+     "prediction": "narrow",
+     "answer": "narrow",
+     "correct": true,
+     "type": "choose"
+    },
+    "201428996": {
+     "prediction": "stove",
+     "answer": "stove",
+     "correct": true,
+     "type": "query"
+    },
+    "20899362": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "202244009": {
+     "prediction": "cookie",
+     "answer": "cookies",
+     "correct": false,
+     "type": "query"
+    },
+    "20287556": {
+     "prediction": "dirty",
+     "answer": "clean",
+     "correct": false,
+     "type": "query"
+    },
+    "20631973": {
+     "prediction": "dirt",
+     "answer": "field",
+     "correct": false,
+     "type": "query"
+    },
+    "20287551": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "201481824": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "logical"
+    },
+    "201663656": {
+     "prediction": "brown",
+     "answer": "light brown",
+     "correct": false,
+     "type": "query"
+    },
+    "20308576": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201065067": {
+     "prediction": "dresses and skirts and suits and t-shirts and dresses and sk",
+     "answer": "gown",
+     "correct": false,
+     "type": "query"
+    },
+    "20462070": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20462076": {
+     "prediction": "hat",
+     "answer": "gloves",
+     "correct": false,
+     "type": "query"
+    },
+    "20462075": {
+     "prediction": "pants",
+     "answer": "gloves",
+     "correct": false,
+     "type": "query"
+    },
+    "201065062": {
+     "prediction": "dresses and skirts and sundresses and skirts and sundresses",
+     "answer": "gown",
+     "correct": false,
+     "type": "query"
+    },
+    "20754631": {
+     "prediction": "steps",
+     "answer": "stairs",
+     "correct": false,
+     "type": "query"
+    },
+    "201935960": {
+     "prediction": "shelf",
+     "answer": "shelf",
+     "correct": true,
+     "type": "query"
+    },
+    "20412222": {
+     "prediction": "chairs",
+     "answer": "tables",
+     "correct": false,
+     "type": "query"
+    },
+    "201935966": {
+     "prediction": "bookshelf",
+     "answer": "shelf",
+     "correct": false,
+     "type": "query"
+    },
+    "20878946": {
+     "prediction": "wide",
+     "answer": "wide",
+     "correct": true,
+     "type": "query"
+    },
+    "201947446": {
+     "prediction": "left",
+     "answer": "left",
+     "correct": true,
+     "type": "query"
+    },
+    "201498767": {
+     "prediction": "keyboard",
+     "answer": "phone",
+     "correct": false,
+     "type": "query"
+    },
+    "20306764": {
+     "prediction": "snowboard",
+     "answer": "gift",
+     "correct": false,
+     "type": "query"
+    },
+    "202144708": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20306767": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201996815": {
+     "prediction": "glass",
+     "answer": "glass",
+     "correct": true,
+     "type": "choose"
+    },
+    "201996813": {
+     "prediction": "plastic",
+     "answer": "glass",
+     "correct": false,
+     "type": "query"
+    },
+    "202060122": {
+     "prediction": "dog",
+     "answer": "dog",
+     "correct": true,
+     "type": "query"
+    },
+    "201067797": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "20394919": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201497916": {
+     "prediction": "monitor",
+     "answer": "monitor",
+     "correct": true,
+     "type": "query"
+    },
+    "20303081": {
+     "prediction": "sitting",
+     "answer": "resting",
+     "correct": false,
+     "type": "query"
+    },
+    "201498727": {
+     "prediction": "plastic",
+     "answer": "plastic",
+     "correct": true,
+     "type": "query"
+    },
+    "201873473": {
+     "prediction": "yes",
+     "answer": "no",
+     "correct": false,
+     "type": "verify"
+    },
+    "20300425": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20300424": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20899558": {
+     "prediction": "white",
+     "answer": "blue",
+     "correct": false,
+     "type": "query"
+    },
+    "20300420": {
+     "prediction": "cars",
+     "answer": "cars",
+     "correct": true,
+     "type": "query"
+    },
+    "20300423": {
+     "prediction": "car",
+     "answer": "cars",
+     "correct": false,
+     "type": "query"
+    },
+    "20836565": {
+     "prediction": "suitcase",
+     "answer": "luggage",
+     "correct": false,
+     "type": "query"
+    },
+    "201947624": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201947620": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "20300428": {
+     "prediction": "signal",
+     "answer": "traffic light",
+     "correct": false,
+     "type": "query"
+    },
+    "201504960": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "201947591": {
+     "prediction": "sink",
+     "answer": "countertop",
+     "correct": false,
+     "type": "query"
+    },
+    "20177575": {
+     "prediction": "white",
+     "answer": "white",
+     "correct": true,
+     "type": "query"
+    },
+    "20381557": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201982068": {
+     "prediction": "cloth",
+     "answer": "cloth",
+     "correct": true,
+     "type": "choose"
+    },
+    "201370428": {
+     "prediction": "black and white",
+     "answer": "black and white",
+     "correct": true,
+     "type": "choose"
+    },
+    "201878325": {
+     "prediction": "woman",
+     "answer": "man",
+     "correct": false,
+     "type": "query"
+    },
+    "201370422": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "query"
+    },
+    "2075709": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "201896034": {
+     "prediction": "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "answer": "table",
+     "correct": false,
+     "type": "query"
+    },
+    "201065497": {
+     "prediction": "blond",
+     "answer": "blond",
+     "correct": true,
+     "type": "choose"
+    },
+    "20857175": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20648122": {
+     "prediction": "no",
+     "answer": "yes",
+     "correct": false,
+     "type": "verify"
+    },
+    "20636999": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "logical"
+    },
+    "20258752": {
+     "prediction": "boy",
+     "answer": "child",
+     "correct": false,
+     "type": "query"
+    },
+    "201156466": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201885557": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true,
+     "type": "query"
+    },
+    "202081210": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "20117834": {
+     "prediction": "lush",
+     "answer": "lush",
+     "correct": true,
+     "type": "choose"
+    },
+    "201438286": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "20117781": {
+     "prediction": "yes",
+     "answer": "yes",
+     "correct": true,
+     "type": "verify"
+    },
+    "201756501": {
+     "prediction": "color white",
+     "answer": "color",
+     "correct": false,
+     "type": "compare"
+    },
+    "20716925": {
+     "prediction": "small",
+     "answer": "small",
+     "correct": true,
+     "type": "choose"
+    },
+    "20541270": {
+     "prediction": "right",
+     "answer": "right",
+     "correct": true,
+     "type": "choose"
+    },
+    "201056079": {
+     "prediction": "male",
+     "answer": "male",
+     "correct": true,
+     "type": "choose"
+    },
+    "20468617": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "2017235": {
+     "prediction": "black",
+     "answer": "black",
+     "correct": true,
+     "type": "query"
+    },
+    "20427913": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true,
+     "type": "query"
+    },
+    "20427912": {
+     "prediction": "chair",
+     "answer": "chair",
+     "correct": true,
+     "type": "query"
+    },
+    "201480278": {
+     "prediction": "no",
+     "answer": "no",
+     "correct": true,
+     "type": "verify"
+    },
+    "201056072": {
+     "prediction": "boy",
+     "answer": "soccer player",
+     "correct": false,
+     "type": "query"
+    }
+   }
+  }
+ },
+ "wrapper_attn_impl": "eager",
+ "bias_scale_beta": -0.6957612633705139,
+ "lora_only_attn_impl": "sdpa",
+ "flips": {
+  "A_pub_on_zero_boxes vs B_pub_off_lora_only": {
+   "n_flips": 7,
+   "flip_pct": 4.666666666666667,
+   "examples": [
+    [
+     "201902997",
+     "computer mouse",
+     "computer monitor"
+    ],
+    [
+     "20306193",
+     "yes",
+     "no\nanswer the question using a single word or phrase"
+    ],
+    [
+     "201110833",
+     "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "no\r\nhashtag sign on tablecloth under plates and paper on tablecloth"
+    ],
+    [
+     "201497576",
+     "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "no\r\ncomputer mouse\r\nyes\r\ncoffee cup\r\nno"
+    ],
+    [
+     "2046473",
+     "right",
+     "left"
+    ],
+    [
+     "201951771",
+     "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of"
+    ],
+    [
+     "201756501",
+     "color white door and kitten white door and kitten white door and kitten white door and k",
+     "color white"
+    ]
+   ]
+  },
+  "A_pub_on_zero_boxes vs D_wrapper_bias_absent": {
+   "n_flips": 0,
+   "flip_pct": 0.0,
+   "examples": []
+  },
+  "A_pub_on_zero_boxes vs C_grid_on": {
+   "n_flips": 8,
+   "flip_pct": 5.333333333333333,
+   "examples": [
+    [
+     "201902997",
+     "computer mouse",
+     "computer monitor"
+    ],
+    [
+     "201079958",
+     "no",
+     "yes"
+    ],
+    [
+     "20306193",
+     "yes",
+     "no\nanswer the question using a single word or phrase"
+    ],
+    [
+     "201110833",
+     "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "no\r\ndefects: yes\r\nlocation: kitchen\r\nmade of glass: yes"
+    ],
+    [
+     "201497576",
+     "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "yes"
+    ],
+    [
+     "201951771",
+     "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of"
+    ],
+    [
+     "201896034",
+     "chair\ntype of chair | chair | wooden chair | dining chair | wooden dining chair |",
+     "chair\ntype of chair | chair | wooden chair | dining chair | kitchen chair | wooden kitchen"
+    ],
+    [
+     "201756501",
+     "color white door and kitten white door and kitten white door and kitten white door and k",
+     "color white"
+    ]
+   ]
+  },
+  "D_wrapper_bias_absent vs B_pub_off_lora_only": {
+   "n_flips": 7,
+   "flip_pct": 4.666666666666667,
+   "examples": [
+    [
+     "201902997",
+     "computer mouse",
+     "computer monitor"
+    ],
+    [
+     "20306193",
+     "yes",
+     "no\nanswer the question using a single word or phrase"
+    ],
+    [
+     "201110833",
+     "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "no\r\nhashtag sign on tablecloth under plates and paper on tablecloth"
+    ],
+    [
+     "201497576",
+     "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "no\r\ncomputer mouse\r\nyes\r\ncoffee cup\r\nno"
+    ],
+    [
+     "2046473",
+     "right",
+     "left"
+    ],
+    [
+     "201951771",
+     "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of"
+    ],
+    [
+     "201756501",
+     "color white door and kitten white door and kitten white door and kitten white door and k",
+     "color white"
+    ]
+   ]
+  },
+  "A_pub_on_zero_boxes vs PUB_on_file": {
+   "n_flips": 0,
+   "flip_pct": 0.0,
+   "examples": []
+  },
+  "B_pub_off_lora_only vs PUB_off_file": {
+   "n_flips": 0,
+   "flip_pct": 0.0,
+   "examples": []
+  },
+  "PUB_on_file vs PUB_off_file": {
+   "n_flips": 7,
+   "flip_pct": 4.666666666666667,
+   "examples": [
+    [
+     "201902997",
+     "computer mouse",
+     "computer monitor"
+    ],
+    [
+     "20306193",
+     "yes",
+     "no\nanswer the question using a single word or phrase"
+    ],
+    [
+     "201110833",
+     "no\r\nhashtag sign on the table | yes\r\nplates on the table |",
+     "no\r\nhashtag sign on tablecloth under plates and paper on tablecloth"
+    ],
+    [
+     "201497576",
+     "no\r\ncontains coffee cup\r\ncontains phone\r\ncontains water bottle\r\ncontains water",
+     "no\r\ncomputer mouse\r\nyes\r\ncoffee cup\r\nno"
+    ],
+    [
+     "2046473",
+     "right",
+     "left"
+    ],
+    [
+     "201951771",
+     "van\ntype of vehicle | color of vehicle | color of van | color of flag | color of",
+     "van\ncolor of van is pink\ncolor of van is pink and white\ncolor of"
+    ],
+    [
+     "201756501",
+     "color white door and kitten white door and kitten white door and kitten white door and k",
+     "color white"
+    ]
+   ]
+  }
+ }
+}

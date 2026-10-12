@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code or the released checkpoints, please cite the paper."
+title: "The Gate Always Closes: On Injecting Auxiliary Signals into Frozen Vision-Language Models"
+type: software
+authors:
+  - family-names: Farazi
+    given-names: Moshiur
+    orcid: https://orcid.org/0000-0003-1494-5921
+  - family-names: Ramasinghe
+    given-names: Sameera
+    orcid: https://orcid.org/0000-0002-3200-9291
+  - family-names: Ciftler
+    given-names: Bekir Sait
+    orcid: https://orcid.org/0000-0003-0229-0745
+  - family-names: Turza
+    given-names: Mahbub Ahmed
+    orcid: https://orcid.org/0009-0005-1749-1453
+  - family-names: Rahman
+    given-names: Shafin
+    orcid: https://orcid.org/0000-0001-7169-0318
+repository-code: https://github.com/mrfarazi/the-gate-always-closes
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "The Gate Always Closes: On Injecting Auxiliary Signals into Frozen Vision-Language Models"
+  authors:
+    - family-names: Farazi
+      given-names: Moshiur
+    - family-names: Ramasinghe
+      given-names: Sameera
+    - family-names: Ciftler
+      given-names: Bekir Sait
+    - family-names: Turza
+      given-names: Mahbub Ahmed
+    - family-names: Rahman
+      given-names: Shafin
+  collection-title: "Proceedings of the Asian Conference on Computer Vision (ACCV)"
+  conference:
+    name: "ACCV 2026"
+    city: "Osaka"
+    country: "JP"
+  month: 12
+  year: 2026
+  notes: "Page numbers to be added when the proceedings appear. Preprint: arXiv:2607.23335"

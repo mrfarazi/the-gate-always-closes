@@ -1,0 +1,15 @@
+# InternVL3-8B and Qwen2-VL-7B closure runs (Python 3.11). Versions used for the paper.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.7.1
+torchvision==0.22.1
+transformers==4.56.2
+peft==0.17.1
+accelerate==1.14.0
+geoopt==0.5.1
+datasets==5.0.1
+numpy
+scipy
+pillow
+pyyaml
+tqdm
+huggingface_hub>=0.23

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hra"
+version = "1.0.0"
+description = "Code and results for 'The Gate Always Closes: On Injecting Auxiliary Signals into Frozen Vision-Language Models' (ACCV 2026)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Moshiur Farazi"}]
+# Table regeneration needs only numpy (+ scipy for the seed-level t-tests); the model code needs
+# the pinned stacks in requirements.txt / requirements-backbones.txt.
+dependencies = ["numpy", "scipy"]
+
+[tool.setuptools.packages.find]
+include = ["hra", "hra.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

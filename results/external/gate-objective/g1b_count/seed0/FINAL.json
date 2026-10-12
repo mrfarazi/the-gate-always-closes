@@ -1,0 +1,7 @@
+{
+  "seed": 0,
+  "task": "tallyqa_count",
+  "final_gate_tanh": 0.001423473353497684,
+  "passes_g1b_seed": true,
+  "opt_steps": 4000
+}

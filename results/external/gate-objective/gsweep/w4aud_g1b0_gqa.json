@@ -1,0 +1,35 @@
+{
+  "tag": "w4aud_g1b0",
+  "bench": "gqa",
+  "ckpt": "results/g1b/seed0/checkpoints/final",
+  "n": 5308,
+  "rows": [
+    {
+      "gamma": 0.0,
+      "acc": 57.762,
+      "delta_vs_0_pp": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "gamma": 1.5,
+      "acc": 57.931,
+      "delta_vs_0_pp": 0.17,
+      "ci95": [
+        -0.207,
+        0.528
+      ]
+    },
+    {
+      "gamma": 2.0,
+      "acc": 57.913,
+      "delta_vs_0_pp": 0.151,
+      "ci95": [
+        -0.245,
+        0.546
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "seed": 1,
+  "task": "presence_family",
+  "final_gate_tanh": -0.0043773353099823,
+  "passes_g1b_seed": true,
+  "opt_steps": 4000
+}

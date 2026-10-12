@@ -1,0 +1,74 @@
+{
+  "vanilla": {
+    "accuracy": 66.12,
+    "ci_95": [
+      64.77,
+      67.45
+    ],
+    "total": 5186,
+    "correct": 3429
+  },
+  "rmsPub_DROP": {
+    "accuracy": 66.62,
+    "ci_95": [
+      65.35,
+      67.93
+    ],
+    "total": 5186,
+    "correct": 3455
+  },
+  "rmsR2_DROP": {
+    "accuracy": 66.24,
+    "ci_95": [
+      64.89,
+      67.57
+    ],
+    "total": 5186,
+    "correct": 3435
+  },
+  "eucGeo_DROP": {
+    "accuracy": 66.72,
+    "ci_95": [
+      65.44,
+      67.99
+    ],
+    "total": 5186,
+    "correct": 3460
+  },
+  "soft_DROP": {
+    "accuracy": 65.1,
+    "ci_95": [
+      63.81,
+      66.37
+    ],
+    "total": 5186,
+    "correct": 3376
+  },
+  "euc_DROP": {
+    "accuracy": 65.35,
+    "ci_95": [
+      64.09,
+      66.68
+    ],
+    "total": 5186,
+    "correct": 3389
+  },
+  "g2_DROP": {
+    "accuracy": 65.14,
+    "ci_95": [
+      63.86,
+      66.43
+    ],
+    "total": 5186,
+    "correct": 3378
+  },
+  "smallA_DROP": {
+    "accuracy": 67.47,
+    "ci_95": [
+      66.18,
+      68.68
+    ],
+    "total": 5186,
+    "correct": 3499
+  }
+}

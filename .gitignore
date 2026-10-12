@@ -1,0 +1,27 @@
+# large / local artefacts
+checkpoints/
+runs/
+data/*
+!data/compositional_pairs.json
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.log
+*.zip
+*.pdf
+!docs/figures/*.pdf
+wandb/
+# python
+__pycache__/
+*.py[co]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+# editors / tooling
+.DS_Store
+*.swp
+.vscode/
+.idea/

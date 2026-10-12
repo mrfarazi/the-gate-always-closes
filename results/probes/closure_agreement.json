@@ -1,0 +1,86 @@
+{
+  "pathway_ablation": {
+    "S1  attn-bias a=0.05": {
+      "n": 12578,
+      "agreement": 97.63078390841152,
+      "flip": 2.3692160915884877,
+      "gain": 65,
+      "loss": 56,
+      "acc_with": 58.05374463348704,
+      "acc_without": 57.98219112736524,
+      "net_pp": 0.071553506121802
+    },
+    "S2  attn-bias a=0.01": {
+      "n": 2000,
+      "agreement": 98.6,
+      "flip": 1.4,
+      "gain": 6,
+      "loss": 11,
+      "acc_with": 60.4,
+      "acc_without": 60.65,
+      "net_pp": -0.25
+    },
+    "detach_bias": {
+      "n": 2000,
+      "agreement": 98.4,
+      "flip": 1.6,
+      "gain": 8,
+      "loss": 8,
+      "acc_with": 60.1,
+      "acc_without": 60.1,
+      "net_pp": 0.0
+    },
+    "frozen_bias": {
+      "n": 2000,
+      "agreement": 98.1,
+      "flip": 1.9,
+      "gain": 7,
+      "loss": 10,
+      "acc_with": 58.35,
+      "acc_without": 58.5,
+      "net_pp": -0.14999999999999858
+    },
+    "eval_only_bias": {
+      "n": 2000,
+      "agreement": 97.9,
+      "flip": 2.1,
+      "gain": 13,
+      "loss": 12,
+      "acc_with": 59.15,
+      "acc_without": 59.1,
+      "net_pp": 0.04999999999999716
+    },
+    "hyp_gradclip": {
+      "n": 2000,
+      "agreement": 98.1,
+      "flip": 1.9,
+      "gain": 14,
+      "loss": 8,
+      "acc_with": 60.45,
+      "acc_without": 60.15,
+      "net_pp": 0.30000000000000426
+    },
+    "small_bias_init": {
+      "n": 2000,
+      "agreement": 98.0,
+      "flip": 2.0,
+      "gain": 10,
+      "loss": 8,
+      "acc_with": 58.8,
+      "acc_without": 58.7,
+      "net_pp": 0.09999999999999432
+    }
+  },
+  "between_model_reference": {
+    "vanilla__vs__soft_prompt": 27.788244159758854,
+    "vanilla__vs__euclidean": 28.805576488319517,
+    "vanilla__vs__small_alpha": 22.287113790504897,
+    "vanilla__vs__rms_ungated": 17.765636774679727,
+    "soft_prompt__vs__euclidean": 9.608138658628485,
+    "soft_prompt__vs__small_alpha": 13.677467972871138,
+    "soft_prompt__vs__rms_ungated": 19.988696307460437,
+    "euclidean__vs__small_alpha": 15.052750565184628,
+    "euclidean__vs__rms_ungated": 20.346646571213263,
+    "small_alpha__vs__rms_ungated": 13.583270535041446
+  }
+}

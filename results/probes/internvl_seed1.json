@@ -1,0 +1,8 @@
+{
+  "backbone": "InternVL3-8B",
+  "model_id": "OpenGVLab/InternVL3-8B-hf",
+  "seed": 1,
+  "steps": 4000,
+  "final_gate_tanh": -0.0014763020444661379,
+  "closed": true
+}

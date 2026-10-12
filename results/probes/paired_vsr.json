@@ -1,0 +1,133 @@
+{
+  "n": 2113,
+  "accuracy": {
+    "vanilla": 66.20918125887364,
+    "rms_ungated": 60.00946521533365,
+    "small_alpha": 54.51964032181732,
+    "soft_prompt": 56.034074775201134,
+    "synthesis": 56.081400851869375,
+    "G2_no_geo": 55.371509701845724
+  },
+  "pairs": {
+    "vanilla__vs__rms_ungated": {
+      "delta_pp": 6.199716043539991,
+      "ci_lo": 4.306672976810223,
+      "ci_hi": 8.092759110269759,
+      "p_boot": 0.0,
+      "p_mcnemar": 1.877275061029073e-10,
+      "mean_abs_margin_shift": 2.3630501658484246
+    },
+    "vanilla__vs__small_alpha": {
+      "delta_pp": 11.689540937056318,
+      "ci_lo": 9.559867486985329,
+      "ci_hi": 13.819214387127307,
+      "p_boot": 0.0,
+      "p_mcnemar": 1.2618028656303734e-25,
+      "mean_abs_margin_shift": 3.1499349283044773
+    },
+    "vanilla__vs__soft_prompt": {
+      "delta_pp": 10.175106483672504,
+      "ci_lo": 8.092759110269759,
+      "ci_hi": 12.304779933743493,
+      "p_boot": 0.0,
+      "p_mcnemar": 6.4977770937149504e-21,
+      "mean_abs_margin_shift": 2.875075408954383
+    },
+    "vanilla__vs__synthesis": {
+      "delta_pp": 10.12778040700426,
+      "ci_lo": 8.045433033601515,
+      "ci_hi": 12.210127780407005,
+      "p_boot": 0.0,
+      "p_mcnemar": 7.655067909523712e-21,
+      "mean_abs_margin_shift": 2.6386358787266424
+    },
+    "vanilla__vs__G2_no_geo": {
+      "delta_pp": 10.837671557027923,
+      "ci_lo": 8.755324183625177,
+      "ci_hi": 12.920018930430668,
+      "p_boot": 0.0,
+      "p_mcnemar": 5.1538420249895437e-23,
+      "mean_abs_margin_shift": 2.944948464585314
+    },
+    "rms_ungated__vs__small_alpha": {
+      "delta_pp": 5.489824893516328,
+      "ci_lo": 4.401325130146711,
+      "ci_hi": 6.625650733554187,
+      "p_boot": 0.0,
+      "p_mcnemar": 9.596243937526396e-23,
+      "mean_abs_margin_shift": 0.9584417914644666
+    },
+    "rms_ungated__vs__soft_prompt": {
+      "delta_pp": 3.975390440132513,
+      "ci_lo": 3.028868906767629,
+      "ci_hi": 4.969238050165641,
+      "p_boot": 0.0,
+      "p_mcnemar": 1.0064796200415156e-15,
+      "mean_abs_margin_shift": 0.7325090098821095
+    },
+    "rms_ungated__vs__synthesis": {
+      "delta_pp": 3.928064363464269,
+      "ci_lo": 2.9815428300993845,
+      "ci_hi": 4.921911973497397,
+      "p_boot": 0.0,
+      "p_mcnemar": 8.564981783013103e-16,
+      "mean_abs_margin_shift": 0.647288542080422
+    },
+    "rms_ungated__vs__G2_no_geo": {
+      "delta_pp": 4.637955513487932,
+      "ci_lo": 3.5967818267865597,
+      "ci_hi": 5.679129200189304,
+      "p_boot": 0.0,
+      "p_mcnemar": 4.617342497646328e-19,
+      "mean_abs_margin_shift": 0.8331528904310517
+    },
+    "small_alpha__vs__soft_prompt": {
+      "delta_pp": -1.5144344533838145,
+      "ci_lo": -2.0823473734027447,
+      "ci_hi": -0.9938476100331283,
+      "p_boot": 0.0,
+      "p_mcnemar": 1.941225491464138e-08,
+      "mean_abs_margin_shift": 0.3680462381369234
+    },
+    "small_alpha__vs__synthesis": {
+      "delta_pp": -1.5617605300520587,
+      "ci_lo": -2.1296734500709893,
+      "ci_hi": -0.9938476100331283,
+      "p_boot": 0.0,
+      "p_mcnemar": 3.608874976634979e-08,
+      "mean_abs_margin_shift": 0.5399195736074018
+    },
+    "small_alpha__vs__G2_no_geo": {
+      "delta_pp": -0.8518693800283956,
+      "ci_lo": -1.3251301467108376,
+      "ci_hi": -0.4259346900141978,
+      "p_boot": 0.0,
+      "p_mcnemar": 0.0002771615982055664,
+      "mean_abs_margin_shift": 0.3852012512867788
+    },
+    "soft_prompt__vs__synthesis": {
+      "delta_pp": -0.047326076668244205,
+      "ci_lo": -0.28395646000946523,
+      "ci_hi": 0.14197823000473261,
+      "p_boot": 0.8218,
+      "p_mcnemar": 1.0,
+      "mean_abs_margin_shift": 0.2534038459752557
+    },
+    "soft_prompt__vs__G2_no_geo": {
+      "delta_pp": 0.6625650733554188,
+      "ci_lo": 0.28395646000946523,
+      "ci_hi": 1.0884997633696167,
+      "p_boot": 0.0002,
+      "p_mcnemar": 0.001312255859375,
+      "mean_abs_margin_shift": 0.23946764431911455
+    },
+    "synthesis__vs__G2_no_geo": {
+      "delta_pp": 0.709891150023663,
+      "ci_lo": 0.3312825366777094,
+      "ci_hi": 1.135825840037861,
+      "p_boot": 0.0004,
+      "p_mcnemar": 0.0014896392822265625,
+      "mean_abs_margin_shift": 0.3582840931680718
+    }
+  }
+}

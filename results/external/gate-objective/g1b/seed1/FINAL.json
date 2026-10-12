@@ -1,0 +1,6 @@
+{
+  "seed": 1,
+  "final_gate_tanh": -0.001018318347632885,
+  "passes_g1b_seed": true,
+  "opt_steps": 4000
+}

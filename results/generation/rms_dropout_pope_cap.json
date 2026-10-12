@@ -1,0 +1,38 @@
+{
+  "rms_dropout_r1": {
+    "pope": {
+      "random": {
+        "accuracy": 86.4,
+        "precision": 97.4,
+        "recall": 74.8,
+        "f1": 84.62,
+        "yes_rate": 38.4,
+        "total": 3000
+      },
+      "popular": {
+        "accuracy": 85.7,
+        "precision": 95.65,
+        "recall": 74.8,
+        "f1": 83.95,
+        "yes_rate": 39.1,
+        "total": 3000
+      },
+      "adversarial": {
+        "accuracy": 84.07,
+        "precision": 91.82,
+        "recall": 74.8,
+        "f1": 82.44,
+        "yes_rate": 40.73,
+        "total": 3000
+      },
+      "_elapsed_sec": 748.6
+    },
+    "captioning": {
+      "metrics": {
+        "error": "[Errno 2] No such file or directory: 'java'"
+      },
+      "n_preds": 1500,
+      "_elapsed_sec": 459.3
+    }
+  }
+}

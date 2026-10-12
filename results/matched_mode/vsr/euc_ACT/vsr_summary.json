@@ -1,0 +1,315 @@
+{
+ "model": "prefix",
+ "checkpoint": "hf://mrfarazi/tgac-llava15-euclidean",
+ "accuracy": 55.99,
+ "correct": 1183,
+ "total_scored": 2113,
+ "errors": 82,
+ "per_relation": {
+  "inside": {
+   "correct": 20,
+   "total": 38,
+   "accuracy": 52.63
+  },
+  "consists of": {
+   "correct": 2,
+   "total": 4,
+   "accuracy": 50.0
+  },
+  "above": {
+   "correct": 38,
+   "total": 60,
+   "accuracy": 63.33
+  },
+  "facing": {
+   "correct": 33,
+   "total": 60,
+   "accuracy": 55.0
+  },
+  "at the edge of": {
+   "correct": 21,
+   "total": 37,
+   "accuracy": 56.76
+  },
+  "touching": {
+   "correct": 135,
+   "total": 256,
+   "accuracy": 52.73
+  },
+  "in front of": {
+   "correct": 83,
+   "total": 134,
+   "accuracy": 61.94
+  },
+  "beside": {
+   "correct": 27,
+   "total": 35,
+   "accuracy": 77.14
+  },
+  "behind": {
+   "correct": 86,
+   "total": 144,
+   "accuracy": 59.72
+  },
+  "at the left side of": {
+   "correct": 41,
+   "total": 90,
+   "accuracy": 45.56
+  },
+  "perpendicular to": {
+   "correct": 4,
+   "total": 12,
+   "accuracy": 33.33
+  },
+  "contains": {
+   "correct": 27,
+   "total": 62,
+   "accuracy": 43.55
+  },
+  "parallel to": {
+   "correct": 11,
+   "total": 22,
+   "accuracy": 50.0
+  },
+  "away from": {
+   "correct": 21,
+   "total": 33,
+   "accuracy": 63.64
+  },
+  "in": {
+   "correct": 32,
+   "total": 57,
+   "accuracy": 56.14
+  },
+  "on top of": {
+   "correct": 68,
+   "total": 105,
+   "accuracy": 64.76
+  },
+  "attached to": {
+   "correct": 7,
+   "total": 11,
+   "accuracy": 63.64
+  },
+  "below": {
+   "correct": 36,
+   "total": 64,
+   "accuracy": 56.25
+  },
+  "at the side of": {
+   "correct": 5,
+   "total": 8,
+   "accuracy": 62.5
+  },
+  "facing away from": {
+   "correct": 18,
+   "total": 37,
+   "accuracy": 48.65
+  },
+  "under": {
+   "correct": 58,
+   "total": 110,
+   "accuracy": 52.73
+  },
+  "at the right side of": {
+   "correct": 40,
+   "total": 77,
+   "accuracy": 51.95
+  },
+  "beneath": {
+   "correct": 35,
+   "total": 52,
+   "accuracy": 67.31
+  },
+  "part of": {
+   "correct": 6,
+   "total": 13,
+   "accuracy": 46.15
+  },
+  "alongside": {
+   "correct": 7,
+   "total": 9,
+   "accuracy": 77.78
+  },
+  "near": {
+   "correct": 14,
+   "total": 22,
+   "accuracy": 63.64
+  },
+  "has as a part": {
+   "correct": 5,
+   "total": 8,
+   "accuracy": 62.5
+  },
+  "on": {
+   "correct": 55,
+   "total": 114,
+   "accuracy": 48.25
+  },
+  "at the back of": {
+   "correct": 12,
+   "total": 22,
+   "accuracy": 54.55
+  },
+  "far from": {
+   "correct": 13,
+   "total": 25,
+   "accuracy": 52.0
+  },
+  "far away from": {
+   "correct": 27,
+   "total": 48,
+   "accuracy": 56.25
+  },
+  "ahead of": {
+   "correct": 5,
+   "total": 7,
+   "accuracy": 71.43
+  },
+  "surrounding": {
+   "correct": 7,
+   "total": 20,
+   "accuracy": 35.0
+  },
+  "in the middle of": {
+   "correct": 10,
+   "total": 19,
+   "accuracy": 52.63
+  },
+  "across from": {
+   "correct": 5,
+   "total": 12,
+   "accuracy": 41.67
+  },
+  "right of": {
+   "correct": 16,
+   "total": 28,
+   "accuracy": 57.14
+  },
+  "close to": {
+   "correct": 14,
+   "total": 19,
+   "accuracy": 73.68
+  },
+  "off": {
+   "correct": 6,
+   "total": 14,
+   "accuracy": 42.86
+  },
+  "against": {
+   "correct": 3,
+   "total": 6,
+   "accuracy": 50.0
+  },
+  "into": {
+   "correct": 5,
+   "total": 9,
+   "accuracy": 55.56
+  },
+  "over": {
+   "correct": 16,
+   "total": 25,
+   "accuracy": 64.0
+  },
+  "left of": {
+   "correct": 25,
+   "total": 39,
+   "accuracy": 64.1
+  },
+  "next to": {
+   "correct": 35,
+   "total": 58,
+   "accuracy": 60.34
+  },
+  "connected to": {
+   "correct": 3,
+   "total": 5,
+   "accuracy": 60.0
+  },
+  "within": {
+   "correct": 1,
+   "total": 4,
+   "accuracy": 25.0
+  },
+  "at": {
+   "correct": 1,
+   "total": 1,
+   "accuracy": 100.0
+  },
+  "adjacent to": {
+   "correct": 10,
+   "total": 12,
+   "accuracy": 83.33
+  },
+  "through": {
+   "correct": 0,
+   "total": 1,
+   "accuracy": 0.0
+  },
+  "enclosed by": {
+   "correct": 1,
+   "total": 2,
+   "accuracy": 50.0
+  },
+  "down from": {
+   "correct": 2,
+   "total": 5,
+   "accuracy": 40.0
+  },
+  "opposite to": {
+   "correct": 4,
+   "total": 9,
+   "accuracy": 44.44
+  },
+  "detached from": {
+   "correct": 2,
+   "total": 4,
+   "accuracy": 50.0
+  },
+  "with": {
+   "correct": 2,
+   "total": 3,
+   "accuracy": 66.67
+  },
+  "by": {
+   "correct": 12,
+   "total": 15,
+   "accuracy": 80.0
+  },
+  "toward": {
+   "correct": 3,
+   "total": 6,
+   "accuracy": 50.0
+  },
+  "outside": {
+   "correct": 4,
+   "total": 9,
+   "accuracy": 44.44
+  },
+  "along": {
+   "correct": 0,
+   "total": 2,
+   "accuracy": 0.0
+  },
+  "beyond": {
+   "correct": 3,
+   "total": 5,
+   "accuracy": 60.0
+  },
+  "across": {
+   "correct": 0,
+   "total": 3,
+   "accuracy": 0.0
+  },
+  "around": {
+   "correct": 1,
+   "total": 1,
+   "accuracy": 100.0
+  },
+  "out of": {
+   "correct": 0,
+   "total": 1,
+   "accuracy": 0.0
+  }
+ }
+}

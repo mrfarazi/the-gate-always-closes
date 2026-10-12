@@ -1,0 +1,9 @@
+name: tgac
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - openjdk   # pycocoevalcap METEOR / SPICE
+  - pip:
+      - -r requirements.txt
+      - -e .
